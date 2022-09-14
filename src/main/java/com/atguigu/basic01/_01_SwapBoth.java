@@ -12,6 +12,28 @@ import org.junit.Test;
  */
 public class _01_SwapBoth {
 
+
+    @Test
+    public void test04() {
+
+
+        
+        int num01 = 4 >> 1;//2
+
+        int num02 = 4 << 1;
+
+        int num03 = ~4;
+
+
+        System.out.println("num01 :"+num01);
+
+        System.out.println("num02 :"+num02);
+
+        System.out.println("num03 :"+num03);
+
+
+    }
+
     @Test
     public void test03() {
 
