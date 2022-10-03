@@ -12,14 +12,34 @@ import org.junit.Test;
  */
 public class _02_xorOrBit {
 
+
     @Test
-    public void test01(){
+    public void testBit(){
 
-        int num01 = 3&4;
+        int num01 = 3>>2;//0
 
-        int num02 = 3|4;
+        int num02 = 3<<2;//12
 
-        int num03 = 3^4;
+        int num03 = ~3;//-4 四步:变成正数之后取反 -> 再减一 -> 再取反 -> 转为正数之后加一
+
+        System.out.println("num01 >> "+num01);
+
+        System.out.println("num02 >> "+num02);
+
+        System.out.println("num03 >> "+num03);
+
+
+
+    }
+
+    @Test
+    public void testXor(){
+
+        int num01 = 3&4;//0
+
+        int num02 = 3|4;//7
+
+        int num03 = 3^4;//7
 
         System.out.println("num01 >> "+num01);
 
