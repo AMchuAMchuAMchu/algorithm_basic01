@@ -15,7 +15,17 @@ public class _02_xorOrBit {
     @Test
     public void test01(){
 
+        int num01 = 3&4;
 
+        int num02 = 3|4;
+
+        int num03 = 3^4;
+
+        System.out.println("num01 >> "+num01);
+
+        System.out.println("num02 >> "+num02);
+
+        System.out.println("num03 >> "+num03);
 
 
     }
