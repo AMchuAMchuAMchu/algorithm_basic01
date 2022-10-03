@@ -20,6 +20,8 @@ public class _01_SwapBoth {
         
         int num01 = 4 >> 1;//2
 
+
+
         int num02 = 4 << 1;
 
         int num03 = ~4;
