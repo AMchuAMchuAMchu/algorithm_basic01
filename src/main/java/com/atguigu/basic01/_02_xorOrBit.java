@@ -14,57 +14,59 @@ public class _02_xorOrBit {
 
 
     @Test
-    public void testInfinityAndNaN(){
+    public void testInfinityAndNaN() {
 
 
-        double num01 = 10/0.0;//Infinity
+        Object num01 = 10 / 0.0;//Infinity
+        System.out.println(num01);
+        System.out.println(num01.equals("Infinity")? "true,是字符串" : "false,不是字符串");
+
 //        double num01 = -10/0.0;//-Infinity
 //        double num01 = 0/0.0;//NaN
 
-        double num02 = 10.0/0.0;//Infinity
+        double num02 = 10.0 / 0.0;//Infinity
 //        double num02 = -10.0/0.0;//-Infinity
 //        double num02 = 10.0/0.0;//Infinity
-//        double num02 = 0.0/0.0;NaN
+//        double num02 = 0.0/0.0;//NaN
 
-        System.out.println("num01::"+num01);
+//        System.out.println("num01::"+num01);
 
-        System.out.println("num02::"+num02);
+//        System.out.println("num02::"+num02);
 
     }
 
     @Test
-    public void testBit(){
+    public void testBit() {
 
-        int num01 = 3>>2;//0
+        int num01 = 3 >> 2;//0
 
-        int num02 = 3<<2;//12
+        int num02 = 3 << 2;//12
 
         int num03 = ~3;//-4 四步:变成正数之后取反 -> 再减一 -> 再取反 -> 转为正数之后加一
 
-        System.out.println("num01 >> "+num01);
+        System.out.println("num01 >> " + num01);
 
-        System.out.println("num02 >> "+num02);
+        System.out.println("num02 >> " + num02);
 
-        System.out.println("num03 >> "+num03);
-
+        System.out.println("num03 >> " + num03);
 
 
     }
 
     @Test
-    public void testXor(){
+    public void testXor() {
 
-        int num01 = 3&4;//0
+        int num01 = 3 & 4;//0
 
-        int num02 = 3|4;//7
+        int num02 = 3 | 4;//7
 
-        int num03 = 3^4;//7
+        int num03 = 3 ^ 4;//7
 
-        System.out.println("num01 >> "+num01);
+        System.out.println("num01 >> " + num01);
 
-        System.out.println("num02 >> "+num02);
+        System.out.println("num02 >> " + num02);
 
-        System.out.println("num03 >> "+num03);
+        System.out.println("num03 >> " + num03);
 
 
     }
