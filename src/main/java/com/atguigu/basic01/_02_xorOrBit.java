@@ -14,6 +14,15 @@ public class _02_xorOrBit {
 
 
     @Test
+    public void testInfinityAndNaN(){
+
+
+
+
+
+    }
+
+    @Test
     public void testBit(){
 
         int num01 = 3>>2;//0
