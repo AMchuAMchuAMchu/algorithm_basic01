@@ -19,11 +19,11 @@ public class _02_xorOrBit {
 
         double num01 = 10/0.0;
 
-        double num02 = 10.0/0.0;
+        double num02 = 0.0/0.0;
 
-        System.out.println("num01"+num01);
+        System.out.println("num01::"+num01);
 
-        System.out.println("num02"+num02);
+        System.out.println("num02::"+num02);
 
 
 
