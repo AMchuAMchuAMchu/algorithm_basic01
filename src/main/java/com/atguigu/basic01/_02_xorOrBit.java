@@ -17,10 +17,13 @@ public class _02_xorOrBit {
     public void testInfinityAndNaN(){
 
 
-        double num01 = 10/0.0;//
+        double num01 = -10/0.0;//Infinity
+//        double num01 = -10/0.0;//Infinity
 //        double num01 = 0/0.0;//NaN
 
-        double num02 = 10.0/0.0;//
+        double num02 = 10.0/0.0;//Infinity
+//        double num02 = -10.0/0.0;//-Infinity
+//        double num02 = 10.0/0.0;//Infinity
 //        double num02 = 0.0/0.0;NaN
 
         System.out.println("num01::"+num01);
